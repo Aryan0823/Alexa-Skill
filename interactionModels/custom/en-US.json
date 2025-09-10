@@ -1,0 +1,102 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "WhatIsMyNameIntent",
+          "samples": [
+            "tell me my name",
+            "what is my name",
+            "whats my name",
+            "my name",
+            "what\u0027s my name"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "WhatIsMyEmailIntent",
+          "samples": [
+            "tell me my email",
+            "tell me my email address",
+            "what is my email address",
+            "what is my email",
+            "my email",
+            "whats my email"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetPhoneNumberIntent",
+          "samples": [
+            "what is my phone number",
+            "tell me my phone number",
+            "my phone number",
+            "whats my phone",
+            "what\u0027s my phone number",
+            "my phone",
+            "tell me my phone"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetAccountCreationIntent",
+          "samples": [
+            "when was my account created",
+            "when did I create my account",
+            "account creation date",
+            "when did I sign up",
+            "when was my account made",
+            "tell me my account creation date",
+            "my account creation"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetAllInfoIntent",
+          "samples": [
+            "tell me everything",
+            "tell me all my information",
+            "give me all my details",
+            "what is all my information",
+            "tell me everything about my account",
+            "all my info",
+            "everything",
+            "all information"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "template sixteen",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  }
+}
